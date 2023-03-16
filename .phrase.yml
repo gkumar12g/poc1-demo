@@ -1,0 +1,21 @@
+phrase:
+  access_token: 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
+  project_id: 290d9bd90b5749df25d26a859eba2a9c
+  file_format: html
+  
+  push:
+    sources:
+    - file: ./basic_page.html
+      params:
+        file_format: html
+        locale_id: en-US
+        update_translations: true
+        update_descriptions: true
+        autotranslate: true
+          
+  pull:
+    targets:
+    - file: ./basic_page.html
+      params:
+        file_format: html
+        locale_id: hi
